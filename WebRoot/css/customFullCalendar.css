@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+.fc_left{
+	width:300px;
+	float:left;
+}
+
+.fc_right{
+	width:720px;
+	margin:0 auto;
+	position:relative;
+	float:left;
+}
+
+#calendar{
+	position:absolute
+}
+
+.ch{
+	border: 1px solid #ccc;
+height: 30px;
+position: relative;
+background: #ccc;
+width: 242px;
+margin-top: 40px;
+}
+
+.selected {
+border: 1px solid #d66500;
+background-color: #fb8318;
+}
+
+#meetingRoom ul li {
+list-style-type: none;
+margin: 5px 1px;
+}
+
+h4 {
+position: absolute;
+padding: 0px;
+margin: 4px;
+}
